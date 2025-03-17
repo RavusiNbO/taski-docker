@@ -11,4 +11,4 @@ jobs:
       - name: check out repository code
         uses: actions/checkout@v4
       - name: print tree
-        uses: tree .
+        run: tree .
